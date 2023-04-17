@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+
+.body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+    font-family: Josephin Sans, cursive;
+    flex-direction: column;
+    
+}
+
+.grid-main{
+    display:grid;
+    grid-template-columns: auto;
+    gap:25px;
+}
+
+.grid-news{
+    border: 2px solid blue;
+    background-color: bisque;
+    color: darkblue;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.image{
+    width: 20%;
+}
+
+.title{
+    font-size: medium;
+    font-weight: bold;
+    color: maroon;
+}
+
+.time{
+    font-size: small;
+    font-weight: bolder;
+    color:black;
+}
+
+.spacearea{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown{
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.dropdown1{
+    width:150px;
+    height:25px;
+    border-radius: 25px;
+    border: 2px solid darkblue;
+    outline: none;
+}
